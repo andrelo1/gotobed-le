@@ -30,7 +30,7 @@ nmake
 ```
 Build spdlog:
 ```
-cd ../spdlog
+cd ../../spdlog
 cmake -B build -S . -A Win32
 cmake --build build --config Release
 ```
