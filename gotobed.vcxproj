@@ -200,7 +200,8 @@
       <AdditionalDependencies>.\common\Release VC9\common_vc9.lib;.\skse\Release\skse.lib;.\Detours\lib.X86\detours.lib;.\spdlog\build\Release\spdlog.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy /Y "$(TargetDir)$(TargetFileName)" "d:\steam\steamapps\common\skyrim\data\skse\plugins\$(TargetFileName)"</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
