@@ -34,6 +34,6 @@ cd ../spdlog
 cmake -B build -S . -A Win32
 cmake --build build --config Release
 ```
-Build 'common_vc9' and 'skse' from SKSE as static libraries.
+Build `common_vc9` and `skse` from SKSE as static libraries.
 
 Open `gotobed.sln` in Visual Studio and build solution. Some SKSE files won't compile and require manual editing.
