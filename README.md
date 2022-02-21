@@ -36,4 +36,4 @@ cmake --build build --config Release
 ```
 Build `common_vc9` and `skse` from SKSE as static libraries.
 
-Open `gotobed.sln` in Visual Studio and build solution. Some SKSE files won't compile and require manual editing.
+Open `gotobed.sln` in Visual Studio and build solution, some SKSE files won't compile and require manual editing.
