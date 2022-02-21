@@ -21,7 +21,7 @@ Clone submodules:
 cd gotobed-le
 git submodule update --init
 ```
-Extract `common` and `skse` folders from SKSE `src` directory to gotobed-le directory.
+Extract `common` and `skse` folders from `src` directory of SKSE archive to gotobed-le directory.
 
 Build Detours:
 ```
